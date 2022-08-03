@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "115680977022",
+    "firebase_url": "https://recipesbook-67e6a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "recipesbook-67e6a",
+    "storage_bucket": "recipesbook-67e6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115680977022:android:ac3d4a590b5c4ae6f3782f",
+        "android_client_info": {
+          "package_name": "com.codefresher.recipesbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115680977022-qd5irqqu9lkdqa677gjf0fe2mcetjb9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codefresher.recipesbook",
+            "certificate_hash": "b3cc4e064455bba7e7255b2523f8401af6b64051"
+          }
+        },
+        {
+          "client_id": "115680977022-nt88aih4s4bmqb0cdqas080u7fpc100a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk1jJveTTnQ8Kh6bn6wccRGbiIYVP9D1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115680977022-nt88aih4s4bmqb0cdqas080u7fpc100a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".AddUserFragment">
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/account_box" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="To select profile image, click on the picture" />
+
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtAge"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="email" />
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="add user" />
+
+    <ProgressBar
+        android:id="@+id/progressBarAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
